@@ -31,12 +31,12 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-24 bg-portfolio-light">
+    <section id="projects" className="py-24 bg-portfolio-light dark:bg-gray-800">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-portfolio-dark mb-3">My Projects</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-portfolio-dark dark:text-white mb-3">My Projects</h2>
           <div className="h-1 w-20 bg-portfolio-blue mx-auto mb-6"></div>
-          <p className="text-portfolio-gray max-w-2xl mx-auto">
+          <p className="text-portfolio-gray dark:text-gray-300 max-w-2xl mx-auto">
             Here are some of my recent projects. Each one represents a unique challenge that I've 
             tackled with passion and technical expertise.
           </p>
@@ -44,7 +44,7 @@ const Projects = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
           {projects.map((project) => (
-            <div key={project.id} className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
+            <div key={project.id} className="bg-white dark:bg-gray-700 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
               <div className="h-48 overflow-hidden">
                 <img 
                   src={project.image} 
@@ -54,14 +54,14 @@ const Projects = () => {
               </div>
               
               <div className="p-6">
-                <h3 className="text-xl font-bold text-portfolio-dark mb-2">{project.title}</h3>
-                <p className="text-portfolio-gray mb-4">{project.description}</p>
+                <h3 className="text-xl font-bold text-portfolio-dark dark:text-white mb-2">{project.title}</h3>
+                <p className="text-portfolio-gray dark:text-gray-300 mb-4">{project.description}</p>
                 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag, index) => (
                     <span 
                       key={index} 
-                      className="bg-portfolio-blue/10 text-portfolio-blue text-sm px-3 py-1 rounded-full"
+                      className="bg-portfolio-blue/10 dark:bg-portfolio-blue/20 text-portfolio-blue text-sm px-3 py-1 rounded-full"
                     >
                       {tag}
                     </span>
