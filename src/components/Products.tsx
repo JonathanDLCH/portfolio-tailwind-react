@@ -5,25 +5,25 @@ import { ChevronRight } from 'lucide-react';
 const projects = [
   {
     id: 1,
-    title: 'Desarrollo de Software',
-    description: 'Nuestro equipo de expertos en desarrollo de software trabaja mano a mano contigo para crear soluciones que optimicen tus procesos empresariales. Desde sistemas de gestión de inventarios y puntos de venta eficientes, hasta aplicaciones web personalizadas, nos encargamos de desarrollar software que se adapte a tus necesidades y te brinde una ventaja competitiva.',
-    tags: ['Requerimientos', 'Diseño', 'Implementación', 'Despliegue'],
+    title: 'E-commerce Platform',
+    description: 'A fully responsive e-commerce platform built with React, Redux, and Node.js. Features include user authentication, product filtering, and payment processing.',
+    tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3',
     link: '#'
   },
   {
     id: 2,
-    title: 'Trabajamos con PYMES',
-    description: 'Entendemos las particularidades y desafíos que enfrentan las PYMES, por eso nos enfocamos en ofrecer soluciones accesibles y adaptadas a tus recursos y necesidades específicas. Nos apasiona ayudar a las empresas a crecer y tener éxito en el mundo digital, brindándote las herramientas necesarias para competir en el mercado actual.',
-    tags: ['Inovación', 'Adaptabilidad', 'Automatización', 'Capacitación'],
+    title: 'Task Management App',
+    description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+    tags: ['React', 'Firebase', 'Tailwind CSS', 'React DnD'],
     image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3',
     link: '#'
   },
   {
     id: 3,
-    title: 'Diseño Impactante',
-    description: 'El diseño es una poderosa herramienta para cautivar a tus clientes y transmitir la esencia de tu marca. En CoDesign, ofrecemos servicios de diseño gráfico que van desde la creación de imágenes y logotipos impresionantes hasta el manejo estratégico de tus redes sociales. Nos aseguramos de que tu presencia en línea sea visualmente atractiva, coherente y efectiva para generar un impacto duradero.',
-    tags: ['Marca', 'Formateria', 'Redes'],
+    title: 'Health & Fitness Dashboard',
+    description: 'A comprehensive health tracking dashboard that visualizes user fitness data, nutrition information, and workout statistics.',
+    tags: ['React', 'Chart.js', 'Express', 'PostgreSQL'],
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3',
     link: '#'
   }
@@ -33,6 +33,14 @@ const Projects = () => {
   return (
     <section id="projects" className="py-24 bg-portfolio-light dark:bg-gray-800">
       <div className="container mx-auto px-6">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-portfolio-dark dark:text-white mb-3">My Projects</h2>
+          <div className="h-1 w-20 bg-portfolio-blue mx-auto mb-6"></div>
+          <p className="text-portfolio-gray dark:text-gray-300 max-w-2xl mx-auto">
+            Here are some of my recent projects. Each one represents a unique challenge that I've 
+            tackled with passion and technical expertise.
+          </p>
+        </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
           {projects.map((project) => (
@@ -64,11 +72,17 @@ const Projects = () => {
                   href={project.link} 
                   className="inline-flex items-center text-portfolio-blue hover:underline font-medium"
                 >
-                  Solicitar <ChevronRight size={16} className="ml-1" />
+                  View Project <ChevronRight size={16} className="ml-1" />
                 </a>
               </div>
             </div>
           ))}
+        </div>
+        
+        <div className="text-center mt-12">
+          <Button className="bg-portfolio-blue hover:bg-blue-600 text-white">
+            View All Projects
+          </Button>
         </div>
       </div>
     </section>

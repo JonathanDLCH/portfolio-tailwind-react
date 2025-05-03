@@ -24,31 +24,26 @@ const Hero = () => {
           {/* Left content */}
           <div className="flex-1 animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-portfolio-dark dark:text-white mb-6">
-              Hi, I'm <span className="text-portfolio-blue">J</span>oel
+              Impulsa tu crecimiento empresarial con  
               <br />
-              <span className="text-portfolio-blue">D</span>avid 
-              <span className="text-portfolio-blue"> L</span>ópez
-              <br />
-              <span className="text-portfolio-blue">C</span>astro 
-              <span className="text-portfolio-blue">H</span>ernandez
+              <span className="text-portfolio-blue">tecnología</span> y <span className="text-portfolio-blue">diseño</span> de vanguardia
             </h1>
             <p className="text-lg md:text-xl text-portfolio-gray dark:text-gray-300 mb-8">
-              Front-end developer passionate about creating stunning digital experiences that 
-              combine beautiful design with functional interfaces.
+            En CoDesign, nos especializamos en brindar soluciones digitales y servicios de diseño a medida para pequeñas y medianas empresas. Sabemos que cada negocio es único y tiene necesidades específicas, por eso nos enfocamos en ofrecerte soluciones personalizadas que impulsen tu crecimiento y te ayuden a destacar en el mercado.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 onClick={scrollToProjects}
                 className="bg-portfolio-blue hover:bg-blue-600 text-white px-8 py-6 text-lg"
               >
-                View My Work
+                CODE
               </Button>
               <Button
                 onClick={scrollToContact}
                 variant="outline" 
                 className="border-portfolio-blue text-portfolio-blue hover:bg-blue-50 dark:hover:bg-blue-900/20 px-8 py-6 text-lg"
               >
-                Contact Me
+                DESIGN
               </Button>
             </div>
           </div>
