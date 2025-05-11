@@ -1,6 +1,7 @@
 
 import { Button } from '@/components/ui/button';
 import { ChevronDown } from 'lucide-react';
+import HeroImage from '@/assets/HeroImage.png';
 
 const Hero = () => {
   const scrollToProjects = () => {
@@ -51,11 +52,11 @@ const Hero = () => {
           {/* Right content - Hero image */}
           <div className="flex-1 animate-fade-in">
             <div className="relative">
-              <div className="w-full h-[500px] bg-portfolio-blue/10 dark:bg-portfolio-blue/5 rounded-lg flex items-center justify-center">
+              <div className="w-full h-[500px] rounded-lg flex items-center justify-center">
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3" 
-                  alt="Joel David López Castro Hernandez" 
-                  className="w-[80%] h-[80%] object-cover rounded-lg shadow-lg"
+                  src={HeroImage}
+                  alt="Imagen Hero"
+                  className="w-[100%] h-[100%] object-contain rounded-lg"
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 w-64 h-64 bg-portfolio-blue/5 dark:bg-portfolio-blue/3 rounded-lg -z-10"></div>

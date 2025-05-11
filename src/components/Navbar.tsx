@@ -1,8 +1,9 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 import { ThemeToggle } from './ThemeToggle';
+import LogoBA from '@/assets/LogoBA.png';
+import LogoNG from '@/assets/LogoNG.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,8 +42,17 @@ const Navbar = () => {
     }`}>
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
-        <a href="#" className="font-bold text-2xl text-portfolio-dark dark:text-white">
-          JDLCH
+        <a href="#" className="flex items-center font-bold text-2xl">
+          <img
+            src={LogoNG}
+            alt="Codesign"
+            className="h-10 w-auto block dark:hidden"
+          />
+          <img
+            src={LogoBA}
+            alt="Codesign"
+            className="h-10 w-auto hidden dark:block"
+          />
         </a>
         
         {/* Desktop Navigation */}
@@ -51,25 +61,25 @@ const Navbar = () => {
             onClick={() => scrollToSection('home')} 
             className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors"
           >
-            Home
+            Inicio
           </button>
           <button 
             onClick={() => scrollToSection('about')} 
             className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors"
           >
-            About
+            Servicios Code
           </button>
           <button 
             onClick={() => scrollToSection('projects')} 
             className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors"
           >
-            Projects
+            Servicios Design
           </button>
           <button 
             onClick={() => scrollToSection('contact')} 
             className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors"
           >
-            Contact
+            Contacto
           </button>
         </nav>
 

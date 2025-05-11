@@ -25,14 +25,14 @@ const Footer = () => {
           
           {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Quick Links</h3>
+            <h3 className="text-xl font-bold mb-4">Enlaces</h3>
             <ul className="space-y-2">
               <li>
                 <button 
                   onClick={() => scrollToSection('home')}
                   className="inline-flex items-center text-gray-300 hover:text-portfolio-blue transition-colors"
                 >
-                  <ChevronRight size={16} className="mr-1" /> Home
+                  <ChevronRight size={16} className="mr-1" /> WhatsApp
                 </button>
               </li>
               <li>
@@ -40,7 +40,7 @@ const Footer = () => {
                   onClick={() => scrollToSection('about')}
                   className="inline-flex items-center text-gray-300 hover:text-portfolio-blue transition-colors"
                 >
-                  <ChevronRight size={16} className="mr-1" /> About
+                  <ChevronRight size={16} className="mr-1" /> CV
                 </button>
               </li>
               <li>
@@ -48,7 +48,7 @@ const Footer = () => {
                   onClick={() => scrollToSection('projects')}
                   className="inline-flex items-center text-gray-300 hover:text-portfolio-blue transition-colors"
                 >
-                  <ChevronRight size={16} className="mr-1" /> Projects
+                  <ChevronRight size={16} className="mr-1" /> Sobre mí
                 </button>
               </li>
               <li>
@@ -56,7 +56,7 @@ const Footer = () => {
                   onClick={() => scrollToSection('contact')}
                   className="inline-flex items-center text-gray-300 hover:text-portfolio-blue transition-colors"
                 >
-                  <ChevronRight size={16} className="mr-1" /> Contact
+                  <ChevronRight size={16} className="mr-1" /> Contacto
                 </button>
               </li>
             </ul>
