@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import UnderConstruction from "@/assets/UnderConstruction.png"; // importa la imagen
 
 const NotFound = () => {
   const location = useLocation();
@@ -12,12 +13,15 @@ const NotFound = () => {
   }, [location.pathname]);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">404</h1>
-        <p className="text-xl text-gray-600 mb-4">Oops! Page not found</p>
-        <a href="/" className="text-blue-500 hover:text-blue-700 underline">
-          Return to Home
+    <div
+      className="min-h-screen flex items-center justify-center bg-gray-100 bg-center bg-no-repeat bg-cover"
+      style={{ backgroundImage: `url(${UnderConstruction})` }}
+    >
+      <div className="p-5 rounded-lg text-center w-5/12">
+        <h1 className="text-4xl font-bold mb-4 text-portfolio-blue">Estamos construyendo algo genial aquí</h1>
+        <p className="text-xl text-white-600 mb-4">Esta sección aún está en desarrollo, pero muy pronto podrás ver más sobre mi trabajo y cómo puedo ayudarte a hacer realidad tus ideas.</p>
+        <a href="/" className="text-ehite-500 hover:text-portfolio-light font-semibold underline">
+          Regresar a la pagína principal
         </a>
       </div>
     </div>
