@@ -84,14 +84,11 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Social</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-portfolio-blue transition-colors">
+              <a href="https://www.linkedin.com/in/jonathandlch/" className="text-gray-300 hover:text-portfolio-blue transition-colors">
                 LinkedIn
               </a>
-              <a href="#" className="text-gray-300 hover:text-portfolio-blue transition-colors">
+              <a href="https://github.com/JonathanDLCH" className="text-gray-300 hover:text-portfolio-blue transition-colors">
                 GitHub
-              </a>
-              <a href="#" className="text-gray-300 hover:text-portfolio-blue transition-colors">
-                Twitter
               </a>
             </div>
           </div>
