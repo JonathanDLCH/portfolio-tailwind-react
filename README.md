@@ -1,4 +1,4 @@
-# Portfolio & Servicios - Jonathan De La Cruz Hernández
+# Portfolio & Servicios - Jonathan De La Cruz Huerta
 
 Bienvenido a mi proyecto personal, donde presento mis servicios profesionales y portafolio. Aquí podrás conocer más sobre mi experiencia en desarrollo web, diseño gráfico, automatización, soluciones cloud y soporte técnico. Además, este espacio servirá para compartir futuros proyectos y recursos útiles para clientes y colaboradores.
 
