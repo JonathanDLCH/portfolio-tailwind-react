@@ -1,4 +1,3 @@
-
 import { ChevronRight } from 'lucide-react';
 
 const Footer = () => {
@@ -28,8 +27,11 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Enlaces</h3>
             <ul className="space-y-2">
               <li>
-                <button 
-                  onClick={() => scrollToSection('home')}
+                <button
+                  onClick={() => window.open(
+                    "https://wa.me/522226062058?text=Hola,%20me%20gustaria%20contratar%20un%20servicio.",
+                    "_blank"
+                  )}
                   className="inline-flex items-center text-gray-300 hover:text-portfolio-blue transition-colors"
                 >
                   <ChevronRight size={16} className="mr-1" /> WhatsApp
@@ -37,7 +39,10 @@ const Footer = () => {
               </li>
               <li>
                 <button 
-                  onClick={() => scrollToSection('about')}
+                  onClick={() => window.open(
+                    "https://docs.google.com/document/d/e/2PACX-1vQL5euDDzCEwN8TQoklruRMTiz5QJHpDKoa-fpihrS_qCKTxALZ7hghQrnpvT5Wvf2IgsJO6Wgtj546/pub",
+                    "_blank"
+                  )}
                   className="inline-flex items-center text-gray-300 hover:text-portfolio-blue transition-colors"
                 >
                   <ChevronRight size={16} className="mr-1" /> CV
@@ -48,15 +53,7 @@ const Footer = () => {
                   onClick={() => scrollToSection('projects')}
                   className="inline-flex items-center text-gray-300 hover:text-portfolio-blue transition-colors"
                 >
-                  <ChevronRight size={16} className="mr-1" /> Sobre mí
-                </button>
-              </li>
-              <li>
-                <button 
-                  onClick={() => scrollToSection('contact')}
-                  className="inline-flex items-center text-gray-300 hover:text-portfolio-blue transition-colors"
-                >
-                  <ChevronRight size={16} className="mr-1" /> Contacto
+                  <ChevronRight size={16} className="mr-1" />SAAS
                 </button>
               </li>
             </ul>
@@ -68,7 +65,7 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-300">
               <li>Puebla, Puebla</li>
               <li>
-                <a href="mailto:hello@jdlch.com" className="hover:text-portfolio-blue transition-colors">
+                <a href="mailto:jonathan@code-sign.dev" className="hover:text-portfolio-blue transition-colors">
                   jonathan@code-sign.dev
                 </a>
               </li>
