@@ -17,17 +17,17 @@ const services = [
   },
   {
     id: 2,
-    title: 'Aplicaciones Móviles',
-    description: 'Desarrollo de aplicaciones móviles nativas e híbridas para iOS y Android. Experiencias de usuario fluidas y rendimiento optimizado.',
-    icon: Smartphone,
-    features: ['React Native', 'Flutter', 'iOS & Android', 'UI/UX Optimizado']
+    title: 'Sistemas Personalizados',
+    description: 'Desarrollo de software a medida para necesidades específicas. CRM, ERP, sistemas de gestión y más.',
+    icon: Code,
+    features: ['Arquitectura Custom', 'Integrations', 'Escalabilidad', 'Mantenimiento']
   },
   {
     id: 3,
     title: 'Automatización de Procesos',
     description: 'Automatizamos tareas repetitivas y optimizamos flujos de trabajo empresariales. Ahorra tiempo y reduce errores humanos.',
     icon: Zap,
-    features: ['Scripts Personalizados', 'APIs Integration', 'Workflows', 'Monitoring']
+    features: ['Scripts Personalizados', 'APIs Integration', 'Workflows', 'Monitoreo']
   },
   {
     id: 4,
@@ -41,15 +41,16 @@ const services = [
     title: 'Soluciones Cloud',
     description: 'Migración y optimización de infraestructura en la nube. Escalabilidad automática y alta disponibilidad.',
     icon: Cloud,
-    features: ['AWS/Azure/GCP', 'DevOps', 'CI/CD', 'Monitoring']
+    features: ['Dominios', 'Hosting', 'Correos']
   },
   {
     id: 6,
-    title: 'Sistemas Personalizados',
-    description: 'Desarrollo de software a medida para necesidades específicas. CRM, ERP, sistemas de gestión y más.',
-    icon: Code,
-    features: ['Arquitectura Custom', 'Integrations', 'Escalabilidad', 'Mantenimiento']
-  }
+    title: 'Consultoria',
+    description: 'Ofrecemos servicios de consultoría para ayudar a las empresas a definir su estrategia digital y optimizar sus procesos.',
+    icon: Smartphone,
+    features: ['Análisis de Requerimientos', 'Estrategia Digital', 'Optimización de Procesos', 'Capacitación']
+  },
+  
 ];
 
 const ServiciosCode = () => {

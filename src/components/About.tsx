@@ -42,10 +42,6 @@ const About = () => {
                 <p className="text-portfolio-gray dark:text-gray-300">Soporte integral en hardware: Laptops, PC, Redes, Mantenimiento</p>
               </div>
             </div>
-            
-            <Button onClick={downloadResume} className="mt-8 bg-portfolio-blue hover:bg-blue-600 text-white">
-              Download Resume
-            </Button>
           </div>
           
           {/* Right side - Text content */}

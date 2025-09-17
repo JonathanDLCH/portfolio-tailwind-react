@@ -24,31 +24,10 @@ const services = [
   },
   {
     id: 3,
-    title: 'Social Media Design',
+    title: 'Social Media',
     description: 'Contenido visual impactante para redes sociales. Posts, stories, banners y templates que aumentan tu engagement.',
     icon: Share2,
     features: ['Posts para RRSS', 'Stories Templates', 'Banners', 'Carruseles']
-  },
-  {
-    id: 4,
-    title: 'Diseño Gráfico',
-    description: 'Soluciones gráficas profesionales para todas tus necesidades. Desde flyers hasta presentaciones corporativas.',
-    icon: Palette,
-    features: ['Flyers & Posters', 'Presentaciones', 'Infografías', 'Material Impreso']
-  },
-  {
-    id: 5,
-    title: 'Packaging Design',
-    description: 'Diseño de empaques que destacan en el punto de venta. Envases que cuentan la historia de tu producto.',
-    icon: Briefcase,
-    features: ['Diseño de Etiquetas', 'Cajas & Envases', 'Mockups 3D', 'Producción']
-  },
-  {
-    id: 6,
-    title: 'Motion Graphics',
-    description: 'Animaciones y videos que capturan la atención. Contenido dinámico para destacar en el mundo digital.',
-    icon: Zap,
-    features: ['Animaciones 2D', 'Video Intros', 'GIFs Animados', 'Motion Branding']
   }
 ];
 
