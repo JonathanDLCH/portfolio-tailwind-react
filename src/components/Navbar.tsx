@@ -63,12 +63,12 @@ const Navbar = () => {
           >
             Inicio
           </button>
-          <button 
-            onClick={() => scrollToSection('about')} 
+          <a 
+            href="/servicios-code"
             className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors"
           >
             Servicios Code
-          </button>
+          </a>
           <button 
             onClick={() => scrollToSection('projects')} 
             className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors"
@@ -116,12 +116,12 @@ const Navbar = () => {
             >
               Inicio
             </button>
-            <button 
-              onClick={() => scrollToSection('about')} 
-              className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors text-left py-2"
+            <a 
+              href="/servicios-code"
+              className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors text-left py-2 block"
             >
               Servicios Code
-            </button>
+            </a>
             <button 
               onClick={() => scrollToSection('projects')} 
               className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors text-left py-2"
