@@ -77,7 +77,11 @@ const Contacto = () => {
                 <p className="text-portfolio-gray dark:text-gray-300 text-lg">
                   Soy Jonathan De La Cruz Hernández, desarrollador y diseñador apasionado por crear 
                   soluciones digitales innovadoras. Con experiencia en desarrollo web y diseño gráfico, 
-                  me especializo en transformar ideas en realidades digitales.
+                  me especializo en transformar ideas en realidades digitales.<br /><br />
+                  Si te gustaría colaborar en un proyecto existente o crear uno nuevo juntos, no dudes en contactarme. 
+                  Además, si estás interesado en aprender programación desde cero o recibir tutorías personalizadas, 
+                  también puedo ayudarte. Esta invitación está especialmente dirigida a personas nuevas que desean aprender, 
+                  crecer y participar en proyectos reales.
                 </p>
               </div>
 
@@ -89,10 +93,10 @@ const Contacto = () => {
                   <div>
                     <h3 className="font-semibold text-portfolio-dark dark:text-white mb-1">Email</h3>
                     <a 
-                      href="mailto:jonathan.dlch@example.com" 
+                      href="mailto:jonathan@code-sign.dev" 
                       className="text-portfolio-blue hover:underline"
                     >
-                      jonathan.dlch@example.com
+                      jonathan@code-sign.dev
                     </a>
                   </div>
                 </div>
@@ -104,10 +108,10 @@ const Contacto = () => {
                   <div>
                     <h3 className="font-semibold text-portfolio-dark dark:text-white mb-1">Teléfono</h3>
                     <a 
-                      href="tel:+525551234567" 
+                      href="tel:+522226062058" 
                       className="text-portfolio-blue hover:underline"
                     >
-                      +52 (555) 123-4567
+                      +52 (222) 606-2058
                     </a>
                   </div>
                 </div>
@@ -118,7 +122,7 @@ const Contacto = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-portfolio-dark dark:text-white mb-1">Ubicación</h3>
-                    <p className="text-portfolio-gray dark:text-gray-300">Ciudad de México, México</p>
+                    <p className="text-portfolio-gray dark:text-gray-300">Heroica Puebla de Zaragoza, México</p>
                   </div>
                 </div>
 
