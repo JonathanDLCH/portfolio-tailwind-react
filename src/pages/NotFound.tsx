@@ -14,12 +14,12 @@ const NotFound = () => {
 
   return (
     <div
-      className="min-h-screen flex items-center justify-center bg-gray-100 bg-center bg-no-repeat bg-cover"
+      className="min-h-screen flex items-center justify-center bg-gray-100 bg-center bg-no-repeat bg-cover pt-16"
       style={{ backgroundImage: `url(${UnderConstruction})` }}
     >
       <div className="p-5 rounded-lg text-center w-5/12">
         <h1 className="text-4xl font-bold mb-4 text-portfolio-blue">Estamos construyendo algo genial aquí</h1>
-        <p className="text-xl text-white-600 mb-4">Esta sección aún está en desarrollo, pero muy pronto podrás ver más sobre mi trabajo y cómo puedo ayudarte a hacer realidad tus ideas.</p>
+        <p className="text-xl text-white-600">Esta sección aún está en desarrollo, pero muy pronto podrás ver más sobre mi trabajo y cómo puedo ayudarte a hacer realidad tus ideas.</p>
         <a href="/" className="text-ehite-500 hover:text-portfolio-light font-semibold underline">
           Regresar a la pagína principal
         </a>

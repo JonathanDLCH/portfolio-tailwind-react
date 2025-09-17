@@ -18,28 +18,28 @@ const About = () => {
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           {/* Left side - Skills */}
           <div className="flex-1 animate-fade-in">
-            <h3 className="text-2xl font-bold text-portfolio-dark dark:text-white mb-6">My Skills</h3>
+            <h3 className="text-2xl font-bold text-portfolio-dark dark:text-white mb-6">Habilidades</h3>
             
             {/* Skills Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="skill-item">
-                <h4 className="text-lg font-medium text-portfolio-dark dark:text-white mb-2">Front-End Development</h4>
-                <p className="text-portfolio-gray dark:text-gray-300">HTML, CSS, JavaScript, React, Tailwind CSS</p>
+                <h4 className="text-lg font-medium text-portfolio-dark dark:text-white mb-2">Creación de aplicaciones</h4>
+                <p className="text-portfolio-gray dark:text-gray-300">Aplicaciones de escritorio y web a la medida</p>
               </div>
               
               <div className="skill-item">
-                <h4 className="text-lg font-medium text-portfolio-dark dark:text-white mb-2">UI/UX Design</h4>
-                <p className="text-portfolio-gray dark:text-gray-300">Figma, Sketch, Adobe XD, User Research</p>
+                <h4 className="text-lg font-medium text-portfolio-dark dark:text-white mb-2">Diseños</h4>
+                <p className="text-portfolio-gray dark:text-gray-300">Branding, identidad visual y diseño web, fundamentales para la presencia digital.</p>
               </div>
               
               <div className="skill-item">
-                <h4 className="text-lg font-medium text-portfolio-dark dark:text-white mb-2">Back-End Development</h4>
-                <p className="text-portfolio-gray dark:text-gray-300">Node.js, Express, MongoDB, Firebase</p>
+                <h4 className="text-lg font-medium text-portfolio-dark dark:text-white mb-2">Automatización y Digitalización</h4>
+                <p className="text-portfolio-gray dark:text-gray-300">Optimización de procesos mediante automatización y digitalización</p>
               </div>
               
               <div className="skill-item">
-                <h4 className="text-lg font-medium text-portfolio-dark dark:text-white mb-2">Tools & Methods</h4>
-                <p className="text-portfolio-gray dark:text-gray-300">Git, Agile, REST APIs, GraphQL</p>
+                <h4 className="text-lg font-medium text-portfolio-dark dark:text-white mb-2">Reparación y Servicio Técnico</h4>
+                <p className="text-portfolio-gray dark:text-gray-300">Soporte integral en hardware: Laptops, PC, Redes, Mantenimiento</p>
               </div>
             </div>
             

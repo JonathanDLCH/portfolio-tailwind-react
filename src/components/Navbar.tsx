@@ -90,7 +90,7 @@ const Navbar = () => {
             onClick={() => scrollToSection('contact')}
             className="bg-portfolio-blue hover:bg-blue-600 text-white"
           >
-            Let's Connect
+            Portafolio
           </Button>
         </div>
 
@@ -114,31 +114,31 @@ const Navbar = () => {
               onClick={() => scrollToSection('home')} 
               className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors text-left py-2"
             >
-              Home
+              Inicio
             </button>
             <button 
               onClick={() => scrollToSection('about')} 
               className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors text-left py-2"
             >
-              About
+              Servicios Code
             </button>
             <button 
               onClick={() => scrollToSection('projects')} 
               className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors text-left py-2"
             >
-              Projects
+              Servicios Design
             </button>
             <button 
               onClick={() => scrollToSection('contact')} 
               className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors text-left py-2"
             >
-              Contact
+              Contacto
             </button>
             <Button 
               onClick={() => scrollToSection('contact')}
               className="bg-portfolio-blue hover:bg-blue-600 text-white w-full"
             >
-              Let's Connect
+              Portafolio
             </Button>
           </div>
         </div>
