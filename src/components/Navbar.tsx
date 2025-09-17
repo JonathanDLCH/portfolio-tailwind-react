@@ -77,12 +77,12 @@ const Navbar = () => {
           >
             Servicios Design
           </a>
-          <button 
-            onClick={() => scrollToSection('contact')} 
+          <a 
+            href="/contacto"
             className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors"
           >
             Contacto
-          </button>
+          </a>
         </nav>
 
         {/* Contact Button and Theme Toggle - Desktop */}
@@ -130,12 +130,12 @@ const Navbar = () => {
             >
               Servicios Design
             </a>
-            <button 
-              onClick={() => scrollToSection('contact')} 
-              className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors text-left py-2"
+            <a 
+              href="/contacto"
+              className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors text-left py-2 block"
             >
               Contacto
-            </button>
+            </a>
             <Button 
               onClick={() => scrollToSection('contact')}
               className="bg-portfolio-blue hover:bg-blue-600 text-white w-full"
