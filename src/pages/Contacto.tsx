@@ -75,7 +75,7 @@ const Contacto = () => {
                   Información Personal
                 </h2>
                 <p className="text-portfolio-gray dark:text-gray-300 text-lg">
-                  Soy Jonathan De La Cruz Hernández, desarrollador y diseñador apasionado por crear 
+                  Soy Jonathan De La Cruz Huerta, desarrollador y diseñador apasionado por crear 
                   soluciones digitales innovadoras. Con experiencia en desarrollo web y diseño gráfico, 
                   me especializo en transformar ideas en realidades digitales.<br /><br />
                   Si te gustaría colaborar en un proyecto existente o crear uno nuevo juntos, no dudes en contactarme. 
