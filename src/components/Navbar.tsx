@@ -71,12 +71,12 @@ const Navbar = () => {
           >
             Servicios Code
           </a>
-          <button 
-            onClick={() => scrollToSection('projects')} 
+          <a 
+            href="/servicios-design"
             className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors"
           >
             Servicios Design
-          </button>
+          </a>
           <button 
             onClick={() => scrollToSection('contact')} 
             className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors"
@@ -124,12 +124,12 @@ const Navbar = () => {
             >
               Servicios Code
             </a>
-            <button 
-              onClick={() => scrollToSection('projects')} 
-              className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors text-left py-2"
+            <a 
+              href="/servicios-design"
+              className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors text-left py-2 block"
             >
               Servicios Design
-            </button>
+            </a>
             <button 
               onClick={() => scrollToSection('contact')} 
               className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors text-left py-2"
