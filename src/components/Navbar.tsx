@@ -4,6 +4,7 @@ import { Menu, X } from 'lucide-react';
 import { ThemeToggle } from './ThemeToggle';
 import LogoBA from '@/assets/LogoBA.png';
 import LogoNG from '@/assets/LogoNG.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -65,24 +66,24 @@ const Navbar = () => {
               Inicio
             </a>
           </button>
-          <a 
-            href="/servicios-code"
+          <Link 
+            to="/servicios-code"
             className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors"
           >
             Servicios Code
-          </a>
-          <a 
-            href="/servicios-design"
+          </Link>
+          <Link 
+            to="/servicios-design"
             className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors"
           >
             Servicios Design
-          </a>
-          <a 
-            href="/contacto"
+          </Link>
+          <Link 
+            to="/contacto"
             className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors"
           >
             Contacto
-          </a>
+          </Link>
         </nav>
 
         {/* Contact Button and Theme Toggle - Desktop */}
@@ -118,24 +119,24 @@ const Navbar = () => {
             >
               Inicio
             </button>
-            <a 
-              href="/servicios-code"
+            <Link 
+              to="/servicios-code"
               className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors text-left py-2 block"
             >
               Servicios Code
-            </a>
-            <a 
-              href="/servicios-design"
+            </Link>
+            <Link
+              to="/servicios-design"
               className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors text-left py-2 block"
             >
               Servicios Design
-            </a>
-            <a 
-              href="/contacto"
+            </Link>
+            <Link 
+              to="/contacto"
               className="font-medium text-portfolio-dark dark:text-white hover:text-portfolio-blue dark:hover:text-portfolio-blue transition-colors text-left py-2 block"
             >
               Contacto
-            </a>
+            </Link>
             <Button 
               onClick={() => scrollToSection('contact')}
               className="bg-portfolio-blue hover:bg-blue-600 text-white w-full"
