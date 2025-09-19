@@ -21,9 +21,9 @@ const App = () => (
         <HashRouter>
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/servicios-code" element={<ServiciosCode />} />
-            <Route path="/servicios-design" element={<ServiciosDesign />} />
-            <Route path="/contacto" element={<Contacto />} />
+            <Route path="portfolio-tailwind-react/servicios-code" element={<ServiciosCode />} />
+            <Route path="portfolio-tailwind-react/servicios-design" element={<ServiciosDesign />} />
+            <Route path="portfolio-tailwind-react/contacto" element={<Contacto />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
